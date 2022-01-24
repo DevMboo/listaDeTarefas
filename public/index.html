@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Lista de tarefas</title>
+</head>
+<body>
+    <div class="todo__controls">
+        <div class="todo_buttons">
+
+            <button class="todo__adjust" id="todoAdjust"><i class="fas fa-adjust"></i></button>
+
+            <label class="todo__help">
+                <button class="todo__text" id="todoText">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1/1204.png" 
+                    height="50" width="80" alt="enter">
+                    Pressione Enter
+                </button>
+            </label>
+
+            <label class="todo_add">
+                <button class="todo__addMobile" id="todoAddMobile">
+                    <i class="fas fa-plus"></i>
+                </button>
+            </label>
+        </div>
+    </div>
+    <div class="todo">
+        <div class="todo__title">
+            Lista de tarefas
+        </div>
+
+        <div class="todo__list" id='todoList'>
+                     
+        </div>
+
+        <div class="todo__new-item" id="newItem">
+            <div >&and;</div>
+            <input type="text" placeholder="Digite e pressione enter para adicionar a tarefa">
+            <div>&and;</div>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      data-auto-a11y="true"
+    ></script>
+</body>
+</html>
